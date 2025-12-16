@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
   <diagram name="Page-1" id="6ydzW8v4npADmoOqL8Mq">
-    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2304" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ppRfXTO3Q_rrg75paUOC-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;direction=south;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Librarian" vertex="1">
-          <mxGeometry height="720" width="240" x="40" y="80" as="geometry" />
+          <mxGeometry height="1400" width="320" x="-40" y="80" as="geometry" />
         </mxCell>
         <mxCell id="ppRfXTO3Q_rrg75paUOC-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="LibraryLink-Librarian System" vertex="1">
-          <mxGeometry height="720" width="440" x="280" y="80" as="geometry" />
+          <mxGeometry height="1400" width="600" x="280" y="80" as="geometry" />
         </mxCell>
         <mxCell id="ppRfXTO3Q_rrg75paUOC-43" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ppRfXTO3Q_rrg75paUOC-39" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -28,17 +28,21 @@
         <mxCell id="ppRfXTO3Q_rrg75paUOC-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Enter staff credentials" vertex="1">
           <mxGeometry height="100" width="100" x="80" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="ppRfXTO3Q_rrg75paUOC-56" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ppRfXTO3Q_rrg75paUOC-41">
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-96" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;entryX=-0.011;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" target="ppRfXTO3Q_rrg75paUOC-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="660" />
+              <mxPoint x="640" y="90" />
+              <mxPoint x="20" y="90" />
+              <mxPoint x="20" y="310" />
             </Array>
+            <mxPoint x="640.0000000000005" y="550" as="sourcePoint" />
+            <mxPoint x="110" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ppRfXTO3Q_rrg75paUOC-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;Display error message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="100" x="550" y="610" as="geometry" />
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;Display login error message&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="610" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="ppRfXTO3Q_rrg75paUOC-54" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-40" style="endArrow=classic;html=1;rounded=0;exitX=0.7;exitY=0.784;exitDx=0;exitDy=0;exitPerimeter=0;" target="ppRfXTO3Q_rrg75paUOC-52" value="">
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-54" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-40" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="ppRfXTO3Q_rrg75paUOC-52" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="530" y="390" as="sourcePoint" />
             <mxPoint x="580" y="340" as="targetPoint" />
@@ -77,6 +81,82 @@
         </mxCell>
         <mxCell id="ppRfXTO3Q_rrg75paUOC-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Display issue book form" vertex="1">
           <mxGeometry height="65" width="76" x="422" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Enter member ID and book ID" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-77" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ppRfXTO3Q_rrg75paUOC-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Validate member ID" vertex="1">
+          <mxGeometry height="70" width="78" x="422" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-75" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="ppRfXTO3Q_rrg75paUOC-72" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="570" />
+              <mxPoint x="220" y="650" />
+              <mxPoint x="220" y="715" />
+            </Array>
+            <mxPoint x="220" y="512" as="sourcePoint" />
+            <mxPoint x="240" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-79" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ppRfXTO3Q_rrg75paUOC-78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Validate book availability" vertex="1">
+          <mxGeometry height="70" width="76" x="423" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-85" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ppRfXTO3Q_rrg75paUOC-83" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-86" connectable="0" parent="ppRfXTO3Q_rrg75paUOC-85" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1143" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-78" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Book available?" vertex="1">
+          <mxGeometry height="60" width="210" x="356" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-88" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ppRfXTO3Q_rrg75paUOC-87" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Create issue record" vertex="1">
+          <mxGeometry height="70" width="76" x="423" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-90" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ppRfXTO3Q_rrg75paUOC-89" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Update book status" vertex="1">
+          <mxGeometry height="71" width="77" x="423" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-89" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="end" vertex="1">
+          <mxGeometry height="10" width="10" x="456.5" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-95" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="541.5" y="1340" />
+              <mxPoint x="171.5" y="1340" />
+            </Array>
+            <mxPoint x="541.5" y="1140" as="sourcePoint" />
+            <mxPoint x="171.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Display book unavailable message" vertex="1">
+          <mxGeometry height="60" width="77" x="520" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-93" edge="1" parent="1" source="ppRfXTO3Q_rrg75paUOC-78" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;" target="ppRfXTO3Q_rrg75paUOC-92" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="1050" as="sourcePoint" />
+            <mxPoint x="590" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppRfXTO3Q_rrg75paUOC-94" connectable="0" parent="ppRfXTO3Q_rrg75paUOC-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2249" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
