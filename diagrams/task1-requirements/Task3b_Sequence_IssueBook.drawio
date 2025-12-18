@@ -94,7 +94,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NDOvP3mXmzEbXyTIHi3X-31" parent="1" style="html=1;shape=mxgraph.sysml.package;labelX=100;html=1;overflow=fill;strokeWidth=1;recursiveResize=0;" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:10px;text-align:left;&quot;&gt;sd Issue Book&lt;/p&gt;" vertex="1">
-          <mxGeometry height="420" width="800" x="10" y="40" as="geometry" />
+          <mxGeometry height="440" width="800" x="10" y="40" as="geometry" />
         </mxCell>
         <mxCell id="NDOvP3mXmzEbXyTIHi3X-35" parent="NDOvP3mXmzEbXyTIHi3X-31" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;html=1;shape=mxgraph.sysml.package;labelX=35;fontStyle=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=-3;" value="alt" vertex="1">
           <mxGeometry height="380" width="760" x="20" y="20" as="geometry" />
